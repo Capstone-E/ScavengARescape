@@ -1,3 +1,13 @@
+**Temporary README**
+
+CD into Viro Sample, npm install, and make sure you have Viro Media installed on your mobile device.
+NPM start, open the Enter testbed (left menu)
+enter in the NGrok Packger Server endpoint (in a green box just after you npm start in your terminal)
+takes a while to load the first time
+https://docs.viromedia.com/docs/quick-start
+https://docs.viromedia.com/docs/tutorial-ar
+
+
 # Viro React
 Viro React is a platform for developers to rapidly build augmented reality (AR) and virtual reality (VR) experiences. Developers write in React Native, and Viro runs their code natively across all mobile VR (including Google Daydream, Samsung Gear VR, and Google Cardboard for iOS and Android) and AR (iOS ARKit and Android ARCore) platforms. [More info here](http://docs.viromedia.com/).
 
@@ -56,7 +66,7 @@ You can also try the latest mainline build containing bleeding edge features and
 4. Download the latest built ViroReact.tgz artiface.
 4. Clone this repo into your workspace with git: `git clone https://github.com/viromedia/viro.git`.
 5. Go into the code-samples directory.
-6. Run `npm install` from the root of this project. 
+6. Run `npm install` from the root of this project.
 7. Remove the ViroReact framework that was pulled down from the npm install (you are going to use the pre-built one).
 8. npm install ../path/to/your/downloadedArtifact.tgz
 
@@ -89,11 +99,11 @@ You can also try the latest mainline build containing bleeding edge features and
 11. That's it! Now build React scheme for `Generic iOS Device`, followed by ViroReact scheme for the same target.
 Note:
     ```
-    11.a If you want the ability to run on Simulator, 
-         change target to any of the `iOS Simulator` targets instead of `Generic iOS Device`. 
-    11.b If in your own app project setup, you prefer to include Viro React as a static library 
-         rather than relying on `use_frameworks!` - build scheme `ViroReact_static_lib` 
-         instead of `ViroReact` as mentioned above in step #11. 
+    11.a If you want the ability to run on Simulator,
+         change target to any of the `iOS Simulator` targets instead of `Generic iOS Device`.
+    11.b If in your own app project setup, you prefer to include Viro React as a static library
+         rather than relying on `use_frameworks!` - build scheme `ViroReact_static_lib`
+         instead of `ViroReact` as mentioned above in step #11.
     ```
 12. You should see a new file `libViroReact.a` at `ios/dist/lib/libViroReact.a`.
 13. To run Viro React tests, run `ViroExample` scheme on your plugged in iOS device.
